@@ -1,10 +1,7 @@
-# pokemon-fetcher
-Pokémon Fetcher is a mini web app that allows users to search for any Pokémon by name and instantly display its official sprite using the PokéAPI . It’s a simple project built with HTML, CSS, and JavaScript (Fetch API &amp; async/await) to practice API requests and DOM manipulation.
 # 🎮 Pokémon Fetcher
 
-A simple web app that lets you search for any Pokémon by name and instantly view its sprite using the [PokéAPI](https://pokeapi.co/).  
-
-This project is built with **HTML**, **CSS**, and **JavaScript** to demonstrate API fetching, DOM manipulation, and basic styling with hover/motion effects.
+Pokémon Fetcher is a mini web app that allows users to search for any Pokémon by name and instantly display its official sprite using the [PokéAPI](https://pokeapi.co/).  
+It’s built with **HTML**, **CSS**, and **JavaScript** (Fetch API & async/await) to practice AP
 ---
 ## 📸 Demo
 Type the name of a Pokémon (like `pikachu`, `bulbasaur`, `charizard`) in the input box, click **Fetch Pokémon**, and see its sprite appear.  
