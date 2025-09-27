@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+}
+h1{
+    margin:50px;
+    color: #f7f7f7;
+}
+#img{
+    margin-top: 50px;
+}
+main{
+border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background: #1f2f31; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 40px auto;
+}
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#pokemonSpirit {
+    margin-top: 20px;
+    width: 250px;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.1); 
+    color: white;
+
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s ease; 
+}
+input[type="text"]:hover {
+  border-color: #ffcb05;    
+  background-color: #020201; 
+  color: white;
+  
+}
+input[type="text"]:focus {
+  border-color: #3b4cca;   
+  box-shadow: 0 0 6px rgba(59, 76, 202, 0.5);
+}
